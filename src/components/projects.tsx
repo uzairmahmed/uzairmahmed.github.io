@@ -212,7 +212,7 @@ const Projects: React.FC = () => {
       <h2 className="text-3xl font-bold text-center text-foreground mb-8">
         Projects
       </h2>
-      <div className="grid grid-cols-3 w-full gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 w-full gap-4">
         <div className="grid grid-cols-1 col-span-1 gap-4 mb-5">
           {projects.map((project, index) => (
             <ProjectCard
@@ -223,7 +223,7 @@ const Projects: React.FC = () => {
             />
           ))}
         </div>
-        <div className="col-span-2 h-full">
+        <div className="col-span-1 lg:col-span-2 h-full">
           <PreviewPanel project={projects[selectedProject]} />
         </div>
       </div>

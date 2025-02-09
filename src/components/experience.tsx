@@ -13,9 +13,9 @@ interface ExperienceItem {
 const ExperienceCard: React.FC<{ experience: ExperienceItem }> = ({
   experience,
 }) => (
-  <div className="mb-8 flex flex-col md:flex-row gap-4">
-    <div className="w-full md:w-1/3">
-      <div className="flex items-center gap-4 mb-2">
+  <div className="mb-8 flex flex-col lg:flex-row gap-4">
+    <div className="w-full lg:w-1/3">
+      <div className="flex flex-col sm:flex-row lg:flex-col items-start sm:items-center lg:items-start gap-4">
         {experience.logo && (
           <img
             src={experience.logo}
