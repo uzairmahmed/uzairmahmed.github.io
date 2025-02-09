@@ -1,5 +1,5 @@
 import React, { JSX } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaEnvelope, FaGithub, FaLinkedin, FaPaperclip } from "react-icons/fa6";
 
 interface ContactItem {
   platform: string;
@@ -39,6 +39,12 @@ const Contact: React.FC = () => {
       link: "mailto:uzair.ahmed@gmail.com",
       icon: <FaEnvelope />,
       username: "uzairmahmed@gmail.com",
+    },
+    {
+      platform: "Resume",
+      link: "https://1drv.ms/b/c/277cabc2b0048a59/EVmKBLDCq3wggCfBXgQAAAAB5WPs6eBLPc7JePoKJCz-yQ?e=181ml1",
+      icon: <FaPaperclip />,
+      username: "Resume",
     },
     // Add more contact items as needed
   ];

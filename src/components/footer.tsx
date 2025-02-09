@@ -15,8 +15,11 @@ const Footer: React.FC = () => {
                         <a href="https://linkedin.com/in/uzairmahmed" className="hover:text-gray-300">
                             LinkedIn
                         </a>
-                        <a href="mailto:uzairmahmed@gmail.com.com" className="hover:text-gray-300">
+                        <a href="mailto:uzairmahmed@gmail.com" className="hover:text-gray-300">
                             Email
+                        </a>
+                        <a href="https://1drv.ms/b/c/277cabc2b0048a59/EVmKBLDCq3wggCfBXgQAAAAB5WPs6eBLPc7JePoKJCz-yQ?e=181ml1" className="hover:text-gray-300">
+                            Resume
                         </a>
                     </div>
                 </div>
