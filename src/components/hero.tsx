@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         <div className="w-2/3 lg:w-1/3 mb-8 lg:mb-0">
           <div className="relative">
             <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQHJM5yLVrU4ew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688964937184?e=1744848000&v=beta&t=vaZWbjkDMiKhF6OeN9jHBsxK8Cp94K9HrJmbsOJaMUQ"
+              src="https://raw.githubusercontent.com/uzairmahmed/uzairmahmed.github.io/refs/heads/main/src/assets/pfp.jpg"
               alt="Profile"
               className="relative rounded-full shadow-xl w-full max-w-[250px] lg:max-w-lg mx-auto"
             />
